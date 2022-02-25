@@ -24,6 +24,7 @@ color_list = [(62, 15, 28), (222, 146, 94), (165, 74, 39), (148, 17, 35), (22, 4
 
 
 def draw_painting(num_dots):
+    tim.hideturtle()
     tim.penup()
     tim.setheading(225)
     tim.forward(300)
